@@ -35,7 +35,7 @@ Welcome to the Komodo Badging System!\nWhat would you like to do?\n
     def add_badge(self):
         b_id = input("Please enter badge ID:\n> ")
         if b_id:
-            add_access = input("Would you like to add doors? (y/n)\n> ")
+            add_access = input("Would you like to add a door? (y/n)\n> ")
             if add_access == "n":
                 self.options()
             elif add_access == "y":
@@ -47,7 +47,7 @@ Welcome to the Komodo Badging System!\nWhat would you like to do?\n
         list_of_doors = input("Remove or Add a door?\n> ").lower()
         if list_of_doors == "remove":
             remove_door = input("What would you like to remove?\n> ")
-            self.app.update_badge_remove(list_of_doors, remove_door)
+            self.app.update_badge_remove(id_update, remove_door)
         elif list_of_doors == "add":
             add_choice = input("What door would you like to add?\n> ")
             self.app.update_badge_add(id_update, add_choice)

@@ -19,8 +19,6 @@ class BadgeApp:
         self.badge_door_dict[badge_ID].append(list_of_doors)
     
     def update_badge_remove(self, badge_ID, list_of_doors):
-        # for i in self.badge_door_dict:
-        #     if i.list_of_doors == remove_door:
         self.badge_door_dict[badge_ID].remove(list_of_doors)
 
     def list_all_badge(self):
