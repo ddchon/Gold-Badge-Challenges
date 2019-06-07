@@ -1,0 +1,28 @@
+display all outings view:
+
+Event Date, Event Type, Cost of Event, Num of People Attending, Cost per Person
+1 12-1-19 Bowling 1000.00             50ppl                      20.00
+1 12-1-19 Bowling 1000.00             50ppl                      20.00
+
+
+outing add view:
+
+Here are the parts of an outing:
+
+	
+	Event Type (Golf, Bowling, Amusement Park, Concert):
+	Number of people that attended:
+	Date of event:
+	What to enter, "Cost" or "CostPer":
+
+    Total Cost:
+
+    Cost Per Person:
+
+    Event Added!
+
+see cost of outings:
+
+What to view, Cost by Type-"CBT" or Total Cost-"TC": 
+
+-----------------------------------------------------------
